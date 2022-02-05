@@ -1,0 +1,7 @@
+@media screen and (min-width: 375px) {
+  .hideOnMobile {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=adaptive.css.map */

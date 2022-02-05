@@ -1,0 +1,74 @@
+@media screen and (min-width: 375px) {
+  .hideOnMobile {
+    display: none;
+  }
+}
+
+@font-face {
+  font-family: Gilroy;
+  src: url("/fonts/Gilroy/Gilroy-Semibold.ttf") format("truetype");
+  font-weight: 600;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 10px;
+}
+
+.header {
+  padding: 3.2rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.header .logo {
+  max-width: 100%;
+  display: block;
+}
+.header .topMenu {
+  font-family: Gilroy, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+}
+.header .topMenu__item {
+  margin-right: 3.2rem;
+  text-decoration: none;
+  color: black;
+  white-space: nowrap;
+}
+.header .topMenu__item:last-child {
+  margin-right: 0;
+}
+.header__icons {
+  display: flex;
+  align-items: center;
+}
+.header__search-icon {
+  width: 2rem;
+  height: 2rem;
+  margin-right: 4rem;
+}
+.header__menu-icon {
+  padding: 2rem;
+  background: rgba(38, 173, 97, 0.2);
+  display: block;
+  border-radius: 4px;
+}
+
+.container {
+  margin: 0 15rem;
+}
+@media screen and (min-width: 375px) {
+  .container {
+    margin: 0;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
